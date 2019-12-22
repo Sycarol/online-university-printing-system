@@ -1,0 +1,336 @@
+body{
+background-color:white;
+}
+
+header{
+	background-color:#3a3c71;
+	color:black;
+	font-family:helvetica;
+	text-align:center;
+	padding:20px;
+	width: auto;
+}
+
+header h1{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:40px;
+	color:white;
+}
+
+header h2{
+	font-family:Garamond;
+	font-size:30px;
+}
+header ul li{
+	list-style-type: none;
+	display:inline-block;
+	background-color: white;
+	margin: 5px;
+}
+header ul li a{
+	font-size: 25px;
+	text-decoration: none;
+	color:black;
+	padding:5px;
+
+}
+
+header .material-icons{
+	font-size: 30px;
+}
+
+section{
+width:100%;
+background-color:white;
+padding-top: 10px;
+padding-bottom:10px;
+height:100%;
+}
+section h2{
+	text-indent:15px;
+	font-family: Garamond;}
+
+section p{
+	font-family:Calibri;
+	font-weight: bold;//carol
+}
+
+a{
+	color:black;
+}
+
+button{
+	border:none;
+	outline:none;
+	background-color: #b9b9b9;
+	padding:10px;
+	cursor: pointer;
+}
+
+article{
+margin:30px;
+padding:10px;
+background-color:white;
+}
+
+.loginsignup{
+	margin:0px;
+	width:100%;//carol
+}
+
+.loginsignup button{
+	border:none;
+	background-color: black;
+	float:left;
+	color:white;
+	outline:none;
+	font-size:25px;
+	padding:10px;
+	width:50%;
+	cursor:pointer;//carol
+}
+
+.loginsignup #loginBtn{
+	background-color: #2c9069;//carol
+}
+
+.loginsignup button:hover, #active{
+	background-color:#2c9069;//carol
+}
+
+.login .signup{
+	float:left;//carol
+}
+
+.login input, .signup input, .login p, .signup p{
+	margin:5px;
+	padding:5px;
+	width:80%;//carol
+}
+
+.login button .signup button{
+	margin:5px;
+	padding:5px;//carol
+}
+.signup, #signupInfo{
+	display:none;//carol
+}
+
+.ls{
+	width:50%;
+	float:left;
+	margin: 0 0 60px 0;
+	padding-left: 0;
+	padding-right: 0;//carol
+}
+
+.ls h2{font-size: 30px;
+}
+
+.info{
+	width:49%;
+	float:right;
+	background-color:white;
+	border-left: 1px solid black;
+	margin-top:30px;//carol
+}
+
+.info ul{
+	list-style-type: circle;
+}
+.info ul li{
+	margin: 20px;
+	margin-top:50px;
+	margin-bottom: 50px;//carol
+
+}
+
+nav {
+	font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:right;
+	background-color:#3a3c71;
+	top: 0;
+	position: relative;
+	width: auto;
+}
+
+nav ul {
+	inline-box-align:initial;
+}
+
+nav ul li {
+
+display: inline-block;
+}
+
+nav ul li a{
+display : block;
+text-decoration:none;
+color:black;
+
+}
+
+nav ul li a hover {
+color:white;
+background-color:black;
+}
+
+footer{
+	clear:both;
+	padding:1px;
+	color:white;
+	background-color:#223242;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+}
+
+.img{
+max-width:100%;
+}
+
+.flex-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+background-color:grey;
+/*flex-wrap:wrap-reverse; //change the order of the content*/
+}
+
+.flex-container >div {
+background-color :#f1f1f1;
+width:auto;
+margin:10px;
+text-align:center;
+line-height:75px;
+font-size:30px;
+}
+
+.img{
+width:500px;
+height:500px;
+}
+
+.dropbtn {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  padding: 16px 16px;
+  	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #f1f1f1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right:0;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  	font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+@media only screen and (max-width:800px){
+header,nav,section,article,footer,.loginsignup {
+width:100%;
+padding:0;
+}
+.img{
+width:100%;
+}
+}
+
+@media only screen and (max-width:500px){
+header,nav,section,article,footer,.loginsignup {
+width:100%;
+padding:0;
+}
+.img{
+width:100%;
+}
+}
+
+.tablink{
+	background-color:#a30e3f;
+	color:white;
+	float: left;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+	right: 0;
+	top: 0;
+}
+
+.tablink:hover{
+	background-color: #d22261;
+}
+
+.tablink:active{
+	background-color: #9f455d;
+}
+
+.tabcontent{
+	color:black;
+	display:none;
+	padding: 100px 20px;
+	height: 100%;
+}
+
+table{
+	width: 90%;
+	position: relative;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+th, td {
+  padding: 5px;
+}
+
+th {
+  text-align: left;
+	text-align: center;
+}
